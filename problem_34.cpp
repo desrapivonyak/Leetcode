@@ -1,9 +1,9 @@
 #include <vector>
 
-vector<int> searchRange(vector<int>& nums, int target) {
+std::vector<int> searchRange(std::vector<int>& nums, int target) {
 	int left = 0;
         int right = nums.size() - 1;
-        vector<int> ans {};
+        std::vector<int> ans {};
         for(int i = 0; i < nums.size(); ++i) {
             if(nums[i] == target) {
                 ans.push_back(i);
