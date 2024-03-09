@@ -1,9 +1,9 @@
 #include <vector>
 #include <unordered_map>
 
-vector<int> twoSum(vector<int>& nums, int target) {
+std::vector<int> twoSum(std::vector<int>& nums, int target) {
         
-	unordered_map<int, int> m;
+	std::unordered_map<int, int> m;
 
         for (int i = 0; i < nums.size(); ++i)
         {
